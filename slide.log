@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.2)  26 APR 2018 11:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.2)  26 APR 2018 15:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1358,6 +1358,17 @@ LaTeX Info: Redefining \includegraphics on input line 228.
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2
+
+] <lamportts.png, id=80, 295.1025pt x 257.96375pt>
+File: lamportts.png Graphic file (type png)
+ <use lamportts.png>
+Package pdftex.def Info: lamportts.png used on input line 253.
+(pdftex.def)             Requested size: 166.87968pt x 145.87967pt.
+
+[3
+
+ <./lamportts.png>]
 \tf@nav=\write6
 \openout6 = `slide.nav'.
 
@@ -1367,31 +1378,30 @@ LaTeX Info: Redefining \includegraphics on input line 228.
 \tf@snm=\write8
 \openout8 = `slide.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 240.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
-
-(./slide.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 240.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 240.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 254.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
+ (./slide.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 254.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 254.
 Package rerunfilecheck Info: File `slide.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 48D9583B54F64E73EBF6B4F2AD2923A7;53.
  ) 
 Here is how much of TeX's memory you used:
- 33017 strings out of 492995
- 679630 string characters out of 6132705
- 875459 words of memory out of 5000000
- 35938 multiletter control sequences out of 15000+600000
- 17963 words of font info for 22 fonts, out of 8000000 for 9000
+ 33087 strings out of 492995
+ 681131 string characters out of 6132705
+ 876459 words of memory out of 5000000
+ 36001 multiletter control sequences out of 15000+600000
+ 20683 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,15n,97p,10419b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/
 texlive/2017/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/20
 17/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2017/texmf-d
 ist/fonts/type1/public/lm/lmss8.pfb>
-Output written on slide.pdf (1 page, 57378 bytes).
+Output written on slide.pdf (3 pages, 127011 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 127 PDF objects out of 1000 (max. 8388607)
+ 106 compressed objects within 2 object streams
+ 8 named destinations out of 1000 (max. 500000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
