@@ -218,13 +218,12 @@
 % -------------------------------------------------------------
 
 %% preamble
-\title[EOSBIXIN]{Distributed Nash Equilibrium Seeking On a Consensus based Gaming}
+\title[Distributed Nash Equilibrium]{Distributed Nash Equilibrium Seeking On a Consensus based Gaming}
 % \subtitle{The subtitle}
-\author[Ryan J. Kung]{\includegraphics[height=2cm]{./ieee-blockchain.png} \\ Ryan J. Kung}
+\author[Ryan Kung]{\includegraphics[height=2cm]{./ieee-blockchain.png} \\ Ryan J. Kung}
 
 \institute[IEEE Blockchain]{ryankung@ieee.org}
 % -------------------------------------------------------------
-
 \begin{document}
 
 % title frame
@@ -235,19 +234,58 @@
 % normal frame
 \section{Distributed Gaming}
 \begin{frame}
-  \frametitle{Definition}
-  
-    We defined DGaming as a series of Gaming Behaviors and Strategis which is Distributed. With Lamport's defination on 1978, A Gaming is Distributed if the message transaction delay is not negligible compared to the time between event in classic gaming behavior.
+  \frametitle{Formulation}
+  Consider a game with $N$ players.
+  The set of players is denoted by $\mathbb{N}={1, 2, ..., N}$.
+  The payoff function of player $i$ is $f_i(x)$,
+  where $x = [x_1, x_2,...,x_N]^T \in R^N$ is the vector of players' actions
+  and $x_i \in R$ is the action of player $i$,
+  then player $i$ has no direct access to player $j$'s action.
+
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Formulation}
+  \begin{center}
+    \bfseries{Nash equilibrium is an action profile on which
+      no player can gain more payoff by unilaterally changing its own action.}
+  \end{center}
+  \begin{gather}
+    \forall i, x_i \in S_i: f_i(x^*_i, x^*_{-i}) \geq f_i(x_i, x^*_{-i}) \nonumber
+  \end{gather}
 \end{frame}
 
 \begin{frame}
-  \frametitle{Lamport TimeStamp}
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.5\linewidth]{lamportts.png}
-    \caption{Lamport Timestamp}
-  \end{figure}
+  \frametitle{Cournot's duopoly Model}
+  \begin{itemize}
+  \item the players are the firms
+  \item the actions of each firm are the set of possible outputs (any nonnegative amount)
+  \item the payoff of each firm is its profit.
+  \end{itemize}
+  
+  where:\newline \\
+  \begin{tabular}{c    l}
+    P:= & \text{Price, Inverse demand function}\\
+    $f_i$:= & \text{Profit of player i} \\
+    $TC_i$:= & \text{Total Cost Function}\\\\
+  \end{tabular}\nonumber
+ 
 \end{frame}
+
+\begin{frame}
+  \frametitle{Cournot's duopoly Model}
+    \begin{tabular}{c    l}
+      P:= & \text{Price, Inverse demand function}\\
+      $f_i$:= & \text{Profit of player i} \\
+      $TC_i$:= & \text{Total Cost Function}\\\\
+    \end{tabular}\nonumber
+    
+    We have:\\
+    \begin{gather}
+    \end{gather}
+\end{frame}
+
 
 
 \begin{frame}
@@ -264,7 +302,6 @@
     \end{tabular}
   \end{center}
   With Repeated Advantage Solution:
-  
   \begin{center}
     \begin{tabular}{c|c|c|}
       & L \\
@@ -290,11 +327,32 @@
     \end{tabular}
   \end{center}
   If players are sensitive on the uncertainty of $s_{-1}$, they may not choose the rational strategy.
+\end{frame}
 
+\begin{frame}
+  \frametitle{Lamport TimeStamp}
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{lamportts.png}
+    \caption{Lamport Timestamp}
+  \end{figure}
 \end{frame}
 
 
 \begin{frame}
+  \frametitle{Definition}
+  
+    We defined Distributed Gaming as a series of Game Behaviors and Strategis which is Distributed. With Lamport's defination on 1978, A Gaming is Distributed if the message transaction delay is not negligible compared to the time between event in classic gaming behavior.
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Distributed Nash Equilibrium}
+  \begin{gather}
+  \dot{x} = k_i \frac {\partial f_i}{\partial x_i}(y_i), i \in \mathbb{N}
+\end{gather}
+
 \end{frame}
 
 
