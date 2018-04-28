@@ -16,7 +16,7 @@
 \usepackage{animate} % insert gif
 
 \usepackage{lipsum} % To generate test text 
-\usepackage{ulem} % 下划线，波浪线
+\usepackage{ulem}
 
 \usepackage{listings} % display code on slides; don't forget [fragile] option after \begin{frame}
 
@@ -272,14 +272,14 @@
   \frametitle{Cournot's duopoly Model}
   \begin{itemize}
   \item the players are the firms
-  \item the actions of each firm are the set of possible outputs (any nonnegative amount)
+  \item the actions of each firm are the set of possible outputs $Q$
   \item the payoff of each firm is its profit.
   \end{itemize}
   where:\newline \\
   \begin{tabular}{c    l}
-    P:= & \text{Price, Inverse demand function}\\
-    $f_i$:= & \text{Profit of player i} \\
-    $TC_i$:= & \text{Total Cost Function}\\\\
+    p:= & \text{Price, Inverse demand function}\\
+    $u_i$:= & \text{Profit of player i} \\
+    $c_i$:= & \text{Total Cost Function}\\\\
   \end{tabular}\nonumber
  
 \end{frame}
@@ -287,18 +287,18 @@
 \begin{frame}
   \frametitle{Cournot's duopoly Model}
     \begin{tabular}{c    l}
-      P:= & \text{Price, Inverse demand function}\\
-      $f_i$:= & \text{Profit of player i} \\
-      $TC_i$:= & \text{Total Cost Function}\\\\
-    \end{tabular}\nonumber
-    
+    p:= & \text{Price, Inverse demand function}\\
+    $u_i$:= & \text{Profit of player i} \\
+    $c_i$:= & \text{Total Cost Function}\\\\
+  \end{tabular}\nonumber
+   
     We have:\\
     \begin{gather}
-      f_i = x_i (x_i+x_{-1}) - TC_i(x_i) \nonumber
+      u_i(q_1,q_2)=q_ip(q)-c_i(q_i)
     \end{gather}
-    Thus:\\
+    Thus the response function $\dot{r}_i: Q_1\rightarrow Q_2$:\\
     \begin{gather}
-      \dot{q}_1 = \dot{q}_2 = \frac{1-c}{3} \nonumber
+      \dot{r}_1 = \dot{r}_2 = \frac{1-c}{3} \nonumber
     \end{gather}
 \end{frame}
 
@@ -306,19 +306,21 @@
 
 
 \begin{frame}
-  \frametitle{Distributed Game}
-  
-    We defined Distributed Gaming as a series of Game Behaviors and Strategis which is Distributed. With Lamport's defination on 1978, A Gaming is Distributed if the message transaction delay is not negligible compared to the time between event in classic gaming behavior.
-  \end{frame}
-
-\begin{frame}
   \frametitle{Distributed}
+  A system is distributed if the message transmission delay is not negligible compared to the time between events in a single process. \cite{time-clocks-ordering-events-distributed-system}\\
+
   \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\linewidth]{lamportts.png}
     \caption{Lamport Timestamp}
   \end{figure}
 \end{frame}
+
+\begin{frame}
+  \frametitle{Distributed Game}
+  
+    We defined Distributed Gaming as a series of Game Behaviors and Strategis which is Distributed. A Gaming is Distributed if the message transaction delay is not negligible compared to the time between event in classic gaming behavior.
+  \end{frame}
 
 
 \begin{frame}
@@ -427,23 +429,14 @@
   Prisoner's Dilemma
   \begin{center}
     \begin{tabular}{c|c|c|}
-      & W & A \\
+      & M & S \\
       \hline
-      W & (1,1)&(-1, 2)\\
+      M & (1,1)&(-1, 2)\\
       \hline
-      A & (2,-1)&(0,0)\\
+      S & (2,-1)&(0,0)\\
     \end{tabular}
   \end{center}
   If players are sensitive on the uncertainty of $s_{-1}$, they may not choose the rational strategy.
-\end{frame}
-
-\begin{frame}
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.3\linewidth]{nodes.png}
-    \caption{Communication graph for the players in the numerical example}
-  \end{figure}
-
 \end{frame}
 
 \begin{frame}
@@ -472,7 +465,7 @@
   Let $\tau=\delta t$, at the $\tau$-time scale:\newline
   \begin{gather}
     \frac{dx_i}{d_{\tau}}=\bar{k_i}\frac{\partial f_i}{\partial x_i}(y_i)\nonumber\\
-    \delta \frac{dy_{ij}}{d\tau}=-\left(\sum_{k=1}^N a_{ik}(y_{ik}-y_{kj})+a_{ij}(y_{ij}-x_y)\right) 
+    \delta \frac{dy_{ij}}{d\tau}=-\left(\sum_{k=1}^N a_{ik}(y_{ik}-y_{kj})+a_{ij}(y_{ij}-x_y)\right)  \cite{7888532}
   \end{gather}
 \end{frame}
 
@@ -488,17 +481,39 @@
   \end{figure}
 
 \end{frame}
+\begin{frame}
+  \begin{figure}[H]
+    \frametitle{Under Switching Topologies}
+    \centering
+    \includegraphics[height=0.4\linewidth]{nodes.png}
+  \end{figure}
+  Player $i$ can be regarded as a virtual leader, who provides its action as a reference signal to be followed by $-i$,   For each $X^*$, there is a constant $\delta$ that for every $\delta \in (\delta_{_max}, \delta_{min})$, Nash Equilibrium $X^*$ is asymptotically stable. \cite{8093754}
+\end{frame}
 
+\begin{frame}
+  \frametitle{On loss of Communication}
+    \begin{figure}[H]
+    \centering
+    \includegraphics[height=0.4\linewidth]{lose-com.png}
+  \end{figure}
+    Player $i$ can be regarded as a virtual leader, who provides its action as a reference signal to be followed by $-i$,   For each $X^*$, there is a constant $\delta$ that for every $\delta \in (\delta_{_max}, \delta_{min})$, Nash Equilibrium $X^*$ is asymptotically stable. \cite{8093754}
+\end{frame}
 
 \begin{frame}
   \frametitle{Conclusions}
     \begin{itemize}
-    \item Pure Strategis Game and Mixed Strategis Game
-    \item Distributed Network May Changed Nash-eq
-    \item Distributed Nash equilibrium have single value
+    \item Exists Distributed Nash Equilibrium
+    \item Distributed Nash Equilibrium can be sensitive
+    \item Distributed Nash Equilibrium is stable under different network Topologies
     \end{itemize}
-\end{frame}
+  \end{frame}
 
+  
+  \begin{frame}
+    \frametitle{Reference}
+  \bibliographystyle{plain}
+  \bibliography{slide}
+\end{frame}
 
 \begin{frame}
   \frametitle{Thanks}

@@ -1,0 +1,20 @@
+\begin{thebibliography}{1}
+
+\bibitem{time-clocks-ordering-events-distributed-system}
+Leslie Lamport.
+\newblock Time, clocks and the ordering of events in a distributed system.
+\newblock pages 558--565, July 1978.
+
+\bibitem{7888532}
+M.~Ye and G.~Hu.
+\newblock Distributed nash equilibrium seeking by a consensus based approach.
+\newblock {\em IEEE Transactions on Automatic Control}, 62(9):4811--4818, Sept
+  2017.
+
+\bibitem{8093754}
+M.~Ye and G.~Hu.
+\newblock Distributed nash equilibrium seeking in multiagent games under
+  switching communication topologies.
+\newblock {\em IEEE Transactions on Cybernetics}, PP(99):1--10, 2017.
+
+\end{thebibliography}

@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: slide.aux
+The style file: plain.bst
+Database file #1: slide.bib
+Warning--empty journal in time-clocks-ordering-events-distributed-system
+You've used 3 entries,
+            2118 wiz_defined-function locations,
+            516 strings with 4408 characters,
+and the built_in function-call counts, 1038 in all, are:
+= -- 103
+> -- 33
+< -- 1
++ -- 13
+- -- 10
+* -- 73
+:= -- 169
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 14
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 42
+empty$ -- 86
+format.name$ -- 10
+if$ -- 224
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 3
+newline$ -- 18
+num.names$ -- 6
+pop$ -- 12
+preamble$ -- 1
+purify$ -- 11
+quote$ -- 0
+skip$ -- 35
+stack$ -- 0
+substring$ -- 82
+swap$ -- 11
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 12
+warning$ -- 1
+while$ -- 10
+width$ -- 4
+write$ -- 34
+(There was 1 warning)
