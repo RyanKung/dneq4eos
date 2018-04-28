@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.2)  28 APR 2018 14:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.2)  28 APR 2018 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1482,49 +1482,53 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
 
 ] [7
 
-] [8
-
-] <lamportts.png, id=262, 295.1025pt x 257.96375pt>
+] <lamportts.png, id=234, 295.1025pt x 257.96375pt>
 File: lamportts.png Graphic file (type png)
 
 <use lamportts.png>
-Package pdftex.def Info: lamportts.png used on input line 340.
+Package pdftex.def Info: lamportts.png used on input line 321.
 (pdftex.def)             Requested size: 166.87968pt x 145.87967pt.
- [9
+ [8
 
- <./lamportts.png>] [10
+ <./lamportts.png>] [9
+
+] [10
 
 ] [11
 
+] [12
+
 ]
-<nodes.png, id=343, 171.64125pt x 216.81pt>
+<nodes.png, id=371, 171.64125pt x 216.81pt>
 File: nodes.png Graphic file (type png)
  <use nodes.png>
-Package pdftex.def Info: nodes.png used on input line 383.
+Package pdftex.def Info: nodes.png used on input line 402.
 (pdftex.def)             Requested size: 100.12883pt x 126.47769pt.
- [12
+ [13
 
  <./nodes.png>]
-[13
+[14
 
-] [14
+] [15
 
-] <nash-eq.png, id=430, 656.4525pt x 472.76625pt>
+] <nash-eq.png, id=457, 656.4525pt x 472.76625pt>
 File: nash-eq.png Graphic file (type png)
  <use nash-eq.png>
-Package pdftex.def Info: nash-eq.png used on input line 426.
+Package pdftex.def Info: nash-eq.png used on input line 445.
 (pdftex.def)             Requested size: 233.63054pt x 168.25519pt.
 
-[15
+[16
 
- <./nash-eq.png>]
+ <./nash-eq.png>] [17
+
+]
 
 
 <QR code requested for "https://github.com/RyanKung/dneq4eos" in version 0-M.>
 
 <Copying the QR code for "https://github.com/RyanKung/dneq4eos" in version 3-M 
 as previously calculated.>
-[16
+[18
 
 ]
 \tf@nav=\write6
@@ -1536,22 +1540,22 @@ as previously calculated.>
 \tf@snm=\write8
 \openout8 = `slide.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 435.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 435.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 464.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 464.
  (./slide.aux
 <Reading QR code for "https://github.com/RyanKung/dneq4eos" at level 3-M from a
 ux file.>
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 435.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 435.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 464.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 464.
 Package rerunfilecheck Info: File `slide.out' has not changed.
 (rerunfilecheck)             Checksum: 38129B4292B8A707CDAD78F79834582A;110.
  ) 
 Here is how much of TeX's memory you used:
- 34760 strings out of 492995
- 705249 string characters out of 6132705
+ 34768 strings out of 492995
+ 705319 string characters out of 6132705
  936505 words of memory out of 5000000
- 37598 multiletter control sequences out of 15000+600000
+ 37602 multiletter control sequences out of 15000+600000
  52560 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,15n,97p,10419b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1570,10 +1574,10 @@ type1/public/lm/lmsso8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
 ic/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy
 8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/m
 sbm10.pfb>
-Output written on slide.pdf (16 pages, 339921 bytes).
+Output written on slide.pdf (18 pages, 343919 bytes).
 PDF statistics:
- 538 PDF objects out of 1000 (max. 8388607)
- 486 compressed objects within 5 object streams
- 35 named destinations out of 1000 (max. 500000)
+ 596 PDF objects out of 1000 (max. 8388607)
+ 541 compressed objects within 6 object streams
+ 39 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
