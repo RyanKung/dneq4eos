@@ -372,6 +372,51 @@
       \hline
     \end{tabular}
   \end{center}
+  But when we discuss Mixed Strategy, if more than 1\% $players_2$ chose $R$, $D$ is better than $U$:
+\end{frame}
+
+\begin{frame}
+  \frametitle{Example A :: Mixed Strategy}
+
+  Mixed Strategy $\sigma$ is a probability distribution over pure strategy.\newline
+
+  A Mixed Strategy for player $i$ can be present as a vector:
+  \begin{gather}
+    \left(\sigma_i(U), \sigma_i(M), \sigma_i(D)\right) \nonumber
+  \end{gather}
+  Payoff Function $u_i$ over $\sigma$:
+   \begin{gather}
+    \sum_{i \in S}\left (\prod_{j=i}^I \sigma_i (s_u)\right)u_j(s) \nonumber
+  \end{gather}
+ 
+\end{frame}
+
+
+
+\begin{frame}
+  \frametitle{Example A :: Mixed Strategy}
+    \begin{center}
+    \begin{tabular}{c|c|c|}
+      & L & R \\
+      \hline
+      U & (1,3)&(-3,0)\\
+      \hline
+      M & (-2,0)&(1,3)\\
+      \hline
+      D & (0,1)&(0,1)\\
+    \end{tabular}
+  \end{center}
+  Let:
+
+  \begin{gather}
+    \sigma_2 = (0.99, 0.01) \nonumber
+  \end{gather}
+  Then:
+  \begin{gather}
+    u_1 = -5.94 \iff \sigma_1 = (1, 0, 0)  \nonumber \\
+    u_1 = 2  \iff \sigma_1 = (0, 0, 1) \nonumber
+  \end{gather}
+
 \end{frame}
 
 
