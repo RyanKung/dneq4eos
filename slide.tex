@@ -232,9 +232,20 @@
 \end{frame}
 
 % normal frame
-\section{Distributed Gaming}
+\section{Introduction}
+
 \begin{frame}
-  \frametitle{Formulation}
+  \frametitle{Introduction}
+  \begin{itemize}
+    \item Game
+    \item Nash Equilibrium
+    \item Distributed Game
+  \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Game}
   Consider a game with $N$ players.
   The set of players is denoted by $\mathbb{N}={1, 2, ..., N}$.
   The payoff function of player $i$ is $f_i(x)$,
@@ -246,7 +257,7 @@
 
 
 \begin{frame}
-  \frametitle{Formulation}
+  \frametitle{Nash Equilibrium}
   \begin{center}
     \bfseries{Nash equilibrium is an action profile on which
       no player can gain more payoff by unilaterally changing its own action.}
@@ -263,7 +274,6 @@
   \item the actions of each firm are the set of possible outputs (any nonnegative amount)
   \item the payoff of each firm is its profit.
   \end{itemize}
-  
   where:\newline \\
   \begin{tabular}{c    l}
     P:= & \text{Price, Inverse demand function}\\
@@ -314,6 +324,39 @@
 
 
 \begin{frame}
+  \frametitle{Distributed Game}
+  
+    We defined Distributed Gaming as a series of Game Behaviors and Strategis which is Distributed. With Lamport's defination on 1978, A Gaming is Distributed if the message transaction delay is not negligible compared to the time between event in classic gaming behavior.
+  \end{frame}
+
+\begin{frame}
+  \frametitle{Distributed}
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{lamportts.png}
+    \caption{Lamport Timestamp}
+  \end{figure}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Formalize}
+  Consider a game with $N$ players.
+  The set of players is denoted by $\mathbb{N}={1, 2, ..., N}$.
+  The payoff function of player $i$ is $f_i(x)$,
+  where $x = [x_1, x_2,...,x_N]^T \in R^N$ is the vector of players' actions
+  and $x_i \in R$ is the action of player $i$,
+  then player $i$ has no direct access to player $j$'s action.\newline
+
+  \bfseries{Suppose that if player $j$ is not a neighbor of player $i$, then player $i$ has no direct access to player $j's$ action}
+\end{frame}
+
+
+
+
+
+\section {Distributed Nash Equilibrium}
+\begin{frame}
   \frametitle{Example B}
 
   Prisoner's Dilemma
@@ -329,31 +372,22 @@
   If players are sensitive on the uncertainty of $s_{-1}$, they may not choose the rational strategy.
 \end{frame}
 
+
 \begin{frame}
-  \frametitle{Lamport TimeStamp}
   \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\linewidth]{lamportts.png}
-    \caption{Lamport Timestamp}
+    \includegraphics[width=0.3\linewidth]{nodes.png}
+    \caption{Communication graph for the players in the numerical example}
   \end{figure}
 \end{frame}
 
-
 \begin{frame}
-  \frametitle{Definition}
+  \frametitle{Distributed Nash Equilibrium}
   
-    We defined Distributed Gaming as a series of Game Behaviors and Strategis which is Distributed. With Lamport's defination on 1978, A Gaming is Distributed if the message transaction delay is not negligible compared to the time between event in classic gaming behavior.
-\end{frame}
-
-
-
-\begin{frame}
-\frametitle{Distributed Nash Equilibrium}
   \begin{gather}
   \dot{x} = k_i \frac {\partial f_i}{\partial x_i}(y_i), i \in \mathbb{N}
 \end{gather}
 
 \end{frame}
-
 
 \end{document}
