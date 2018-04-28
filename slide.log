@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.2)  28 APR 2018 13:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.2)  28 APR 2018 13:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -655,6 +655,50 @@ emedefault.sty
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
 emedefault.sty)))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/qrcode/qrcode.sty
+Package: qrcode 2015/01/08 v1.51 QR code generation
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks43
+\XKV@tempa@toks=\toks44
+)
+\XKV@depth=\count153
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\c@qr@i=\count154
+\c@qr@j=\count155
+\qr@a=\count156
+\qr@b=\count157
+\qr@c=\count158
+\qr@for@depth=\count159
+\qr@for@maxdepth=\count160
+\qr@for@start=\count161
+\qr@for@end=\count162
+\qr@for@step=\count163
+\qr@newforcount=\count164
+\qr@newforcount=\count165
+\qr@desiredheight=\skip57
+\qr@modulesize=\skip58
+\qr@minipagewidth=\skip59
+\c@maski=\count166
+\c@maskj=\count167
+\c@totalones=\count168
+\c@penaltyi=\count169
+\c@penaltyii=\count170
+\c@penaltyiii=\count171
+\c@penaltyiv=\count172
+\c@qr@hexchars=\count173
+\qr@newforcount=\count174
+\c@qr@divisionsremaining=\count175
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count176
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
@@ -666,16 +710,16 @@ Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count153
-\calc@Bcount=\count154
+\calc@Acount=\count177
+\calc@Bcount=\count178
 \calc@Adimen=\dimen188
 \calc@Bdimen=\dimen189
-\calc@Askip=\skip57
-\calc@Bskip=\skip58
+\calc@Askip=\skip60
+\calc@Bskip=\skip61
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count155
-\calc@Cskip=\skip59
+\calc@Ccount=\count179
+\calc@Cskip=\skip62
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
@@ -684,9 +728,9 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count156
+\g_MT_multlinerow_int=\count180
 \l_MT_multwidth_dim=\dimen190
-\origjot=\skip60
+\origjot=\skip63
 \l_MT_shortvdotswithinadjustabove_dim=\dimen191
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen192
 \l_MT_above_intertext_sep=\dimen193
@@ -700,17 +744,17 @@ nment
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count157
-\float@exts=\toks43
+\c@float@type=\count181
+\float@exts=\toks45
 \float@box=\box53
-\@float@everytoks=\toks44
+\@float@everytoks=\toks46
 \@floatcapt=\box54
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\@float@every@algorithm=\toks45
-\c@algorithm=\count158
+\@float@every@algorithm=\toks47
+\c@algorithm=\count182
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
@@ -750,17 +794,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (/usr/local/texlive/2017/texmf-dist/tex/latex/animate/animate.sty
 Package: animate 2017/05/18 PDF animations from files and inline graphics
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks46
-\XKV@tempa@toks=\toks47
-)
-\XKV@depth=\count159
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/ifdraft.sty
 Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
 )
@@ -770,59 +803,59 @@ Package: expl3 2017/05/13 L3 programming layer (loader)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2017/05/13 L3 programming layer (code)
-\c_max_int=\count160
-\l_tmpa_int=\count161
-\l_tmpb_int=\count162
-\g_tmpa_int=\count163
-\g_tmpb_int=\count164
-\g__prg_map_int=\count165
-\c_log_iow=\count166
-\l_iow_line_count_int=\count167
-\l__iow_line_target_int=\count168
-\l__iow_one_indent_int=\count169
-\l__iow_indent_int=\count170
+\c_max_int=\count183
+\l_tmpa_int=\count184
+\l_tmpb_int=\count185
+\g_tmpa_int=\count186
+\g_tmpb_int=\count187
+\g__prg_map_int=\count188
+\c_log_iow=\count189
+\l_iow_line_count_int=\count190
+\l__iow_line_target_int=\count191
+\l__iow_one_indent_int=\count192
+\l__iow_indent_int=\count193
 \c_zero_dim=\dimen197
 \c_max_dim=\dimen198
 \l_tmpa_dim=\dimen199
 \l_tmpb_dim=\dimen256
 \g_tmpa_dim=\dimen257
 \g_tmpb_dim=\dimen258
-\c_zero_skip=\skip61
-\c_max_skip=\skip62
-\l_tmpa_skip=\skip63
-\l_tmpb_skip=\skip64
-\g_tmpa_skip=\skip65
-\g_tmpb_skip=\skip66
+\c_zero_skip=\skip64
+\c_max_skip=\skip65
+\l_tmpa_skip=\skip66
+\l_tmpb_skip=\skip67
+\g_tmpa_skip=\skip68
+\g_tmpb_skip=\skip69
 \c_zero_muskip=\muskip12
 \c_max_muskip=\muskip13
 \l_tmpa_muskip=\muskip14
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count171
-\c__fp_leading_shift_int=\count172
-\c__fp_middle_shift_int=\count173
-\c__fp_trailing_shift_int=\count174
-\c__fp_big_leading_shift_int=\count175
-\c__fp_big_middle_shift_int=\count176
-\c__fp_big_trailing_shift_int=\count177
-\c__fp_Bigg_leading_shift_int=\count178
-\c__fp_Bigg_middle_shift_int=\count179
-\c__fp_Bigg_trailing_shift_int=\count180
-\c__fp_rand_size_int=\count181
-\c__fp_rand_four_int=\count182
-\c__fp_rand_eight_int=\count183
-\l__sort_length_int=\count184
-\l__sort_min_int=\count185
-\l__sort_top_int=\count186
-\l__sort_max_int=\count187
-\l__sort_true_max_int=\count188
-\l__sort_block_int=\count189
-\l__sort_begin_int=\count190
-\l__sort_end_int=\count191
-\l__sort_A_int=\count192
-\l__sort_B_int=\count193
-\l__sort_C_int=\count194
+\l_keys_choice_int=\count194
+\c__fp_leading_shift_int=\count195
+\c__fp_middle_shift_int=\count196
+\c__fp_trailing_shift_int=\count197
+\c__fp_big_leading_shift_int=\count198
+\c__fp_big_middle_shift_int=\count199
+\c__fp_big_trailing_shift_int=\count266
+\c__fp_Bigg_leading_shift_int=\count267
+\c__fp_Bigg_middle_shift_int=\count268
+\c__fp_Bigg_trailing_shift_int=\count269
+\c__fp_rand_size_int=\count270
+\c__fp_rand_four_int=\count271
+\c__fp_rand_eight_int=\count272
+\l__sort_length_int=\count273
+\l__sort_min_int=\count274
+\l__sort_top_int=\count275
+\l__sort_max_int=\count276
+\l__sort_true_max_int=\count277
+\l__sort_block_int=\count278
+\l__sort_begin_int=\count279
+\l__sort_end_int=\count280
+\l__sort_A_int=\count281
+\l__sort_B_int=\count282
+\l__sort_C_int=\count283
 \c_empty_box=\box55
 \l_tmpa_box=\box56
 \l_tmpb_box=\box57
@@ -866,7 +899,7 @@ Package: expl3 2017/05/13 L3 programming layer (code)
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count195
+\l__driver_color_stack_int=\count284
 \l__driver_tmp_box=\box70
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
@@ -874,8 +907,8 @@ Package: l3keys2e 2017/05/13 LaTeX2e option processing using LaTeX3 keys
 )
 Package: pdfbase 2017/03/23 v0.14 driver independent access to low-level PDF fe
 atures
-\g_pbs_page_int=\count196
-\g_pbs_oc_int=\count197
+\g_pbs_page_int=\count285
+\g_pbs_oc_int=\count286
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/ocgx2/ocgbase.sty
 Package: ocgbase 2017/03/30 v0.10 support package for ocgx2.sty
 )
@@ -883,54 +916,50 @@ Package: ocgbase 2017/03/30 v0.10 support package for ocgx2.sty
 \@anim@measbox=\box72
 \@anim@tmpdima=\dimen284
 \@anim@tmpdimb=\dimen285
-\@anim@num=\count198
-\@anim@curframe=\count199
-\@anim@curframe@zb=\count266
-\@anim@resizeflags=\count267
-\@anim@skipfram=\count268
-\@anim@mulframecnt=\count269
+\@anim@num=\count287
+\@anim@curframe=\count288
+\@anim@curframe@zb=\count289
+\@anim@resizeflags=\count290
+\@anim@skipfram=\count291
+\@anim@mulframecnt=\count292
 \@anim@@tmlnfile=\read2
-\@anim@tmpcnt=\count270
-\c@@anim@ltxcnt=\count271
-\@anim@curlayer=\count272
-\@anim@lineno=\count273
-\@anim@curfield=\count274
-\@anim@@resizeflags=\count275
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/lipsum/lipsum.sty
-Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count276
+\@anim@tmpcnt=\count293
+\c@@anim@ltxcnt=\count294
+\@anim@curlayer=\count295
+\@anim@lineno=\count296
+\@anim@curfield=\count297
+\@anim@@resizeflags=\count298
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box73
 \UL@hyphenbox=\box74
-\UL@skip=\skip67
+\UL@skip=\skip70
 \UL@hook=\toks48
 \UL@height=\dimen286
-\UL@pe=\count277
+\UL@pe=\count299
 \UL@pixel=\dimen287
 \ULC@box=\box75
 Package: ulem 2012/05/18
 \ULdepth=\dimen288
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count278
+\lst@mode=\count300
 \lst@gtempboxa=\box76
 \lst@token=\toks49
-\lst@length=\count279
+\lst@length=\count301
 \lst@currlwidth=\dimen289
-\lst@column=\count280
-\lst@pos=\count281
+\lst@column=\count302
+\lst@pos=\count303
 \lst@lostspace=\dimen290
 \lst@width=\dimen291
-\lst@newlines=\count282
-\lst@lineno=\count283
+\lst@newlines=\count304
+\lst@lineno=\count305
 \lst@maxwidth=\dimen292
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count284
-\lst@skipnumbers=\count285
+\c@lstnumber=\count306
+\lst@skipnumbers=\count307
 \lst@framebox=\box77
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
@@ -940,7 +969,7 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip68
+\OuterFrameSep=\skip71
 \fb@frw=\dimen293
 \fb@frh=\dimen294
 \FrameRule=\dimen295
@@ -990,7 +1019,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count286
+\pgf@plot@mark@count=\count308
 \pgfplotmarksize=\dimen301
 )
 \tikz@lastx=\dimen302
@@ -1003,19 +1032,19 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box80
 \tikz@tempbox=\box81
 \tikz@tempbox@bg=\box82
-\tikztreelevel=\count287
-\tikznumberofchildren=\count288
-\tikznumberofcurrentchild=\count289
-\tikz@fig@count=\count290
+\tikztreelevel=\count309
+\tikznumberofchildren=\count310
+\tikznumberofcurrentchild=\count311
+\tikz@fig@count=\count312
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count291
-\pgfmatrixcurrentcolumn=\count292
-\pgf@matrix@numberofcolumns=\count293
+\pgfmatrixcurrentrow=\count313
+\pgfmatrixcurrentcolumn=\count314
+\pgf@matrix@numberofcolumns=\count315
 )
-\tikz@expandcount=\count294
+\tikz@expandcount=\count316
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -1067,7 +1096,7 @@ s.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen311
 \pgfdecoratedinputsegmentremainingdistance=\dimen312
 \pgf@decorate@distancetomove=\dimen313
-\pgf@decorate@repeatstate=\count295
+\pgf@decorate@repeatstate=\count317
 \pgfdecorationsegmentamplitude=\dimen314
 \pgfdecorationsegmentlength=\dimen315
 )
@@ -1177,30 +1206,33 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\new@ifnextchar' on input line 223.
+(hyperref)                removing `\new@ifnextchar' on input line 224.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 223.
+(hyperref)                removing `\\' on input line 224.
 
-(./slide.aux)
+(./slide.aux
+<Reading QR code for "https://github.com/RyanKung/dneq4eos" at level 3-M from a
+ux file.>
+)
 \openout1 = `slide.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 227
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 228
 .
  (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1241,16 +1273,16 @@ File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count296
+\scratchcounter=\count318
 \scratchdimen=\dimen316
 \scratchbox=\box106
-\nofMPsegments=\count297
-\nofMParguments=\count298
+\nofMPsegments=\count319
+\nofMParguments=\count320
 \everyMPshowfont=\toks52
-\MPscratchCnt=\count299
+\MPscratchCnt=\count321
 \MPscratchDim=\dimen317
-\MPnumerator=\count300
-\makeMPintoPDFobject=\count301
+\MPnumerator=\count322
+\makeMPintoPDFobject=\count323
 \everyMPtoPDFconversion=\toks53
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1271,7 +1303,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box107
-Package hyperref Info: Link coloring OFF on input line 227.
+Package hyperref Info: Link coloring OFF on input line 228.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1279,62 +1311,62 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count302
+\c@section@level=\count324
 )
-LaTeX Info: Redefining \ref on input line 227.
-LaTeX Info: Redefining \pageref on input line 227.
-LaTeX Info: Redefining \nameref on input line 227.
+LaTeX Info: Redefining \ref on input line 228.
+LaTeX Info: Redefining \pageref on input line 228.
+LaTeX Info: Redefining \nameref on input line 228.
 
 (./slide.out) (./slide.out)
 \@outlinefile=\write5
 \openout5 = `slide.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 227.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 228.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 227.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 228.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 227.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 228.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 227.
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 228.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> OT1/lmr/m/n on input line 227.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 227.
+(Font)                  OT1/lmss/m/n --> OT1/lmr/m/n on input line 228.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 228.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> OT1/lmss/bx/n on input line 227.
+(Font)                  OT1/lmr/bx/n --> OT1/lmss/bx/n on input line 228.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/lmss/bx/n on input line 227.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 227.
+(Font)                  OT1/lmr/bx/n --> OT1/lmss/bx/n on input line 228.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 228.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/m/n on input line 227.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/m/n on input line 228.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> OT1/lmss/m/n on input line 227.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 227.
+(Font)                  OT1/lmss/bx/n --> OT1/lmss/m/n on input line 228.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 228.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> OT1/lmss/m/it on input line 227.
+(Font)                  OT1/lmr/m/it --> OT1/lmss/m/it on input line 228.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> OT1/lmss/m/it on input line 227.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 227.
+(Font)                  OT1/lmr/bx/it --> OT1/lmss/m/it on input line 228.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 228.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 227.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 228.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 227.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 228.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/bx/n on input line 227.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/bx/n on input line 228.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/lmss/m/it --> OT1/lmss/bx/it on input line 227.
+(Font)                  OT1/lmss/m/it --> OT1/lmss/bx/it on input line 228.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/bx/n --> OT1/lmr/bx/n on input line 227.
+(Font)                  OT1/lmss/bx/n --> OT1/lmr/bx/n on input line 228.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> OT1/lmss/bx/n on input line 227.
+(Font)                  OT1/lmss/bx/n --> OT1/lmss/bx/n on input line 228.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/bx/n on input line 227.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/bx/n on input line 228.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmss/m/it --> OT1/lmss/bx/it on input line 227.
+(Font)                  OT1/lmss/m/it --> OT1/lmss/bx/it on input line 228.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/bx/n on input line 227.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/bx/n on input line 228.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
@@ -1360,84 +1392,84 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 227.
-\c@lstlisting=\count303
+LaTeX Info: Redefining \includegraphics on input line 228.
+\c@lstlisting=\count325
  (./slide.nav)
 <./ieee-blockchain.png, id=24, 301.125pt x 180.675pt>
 File: ./ieee-blockchain.png Graphic file (type png)
 
 <use ./ieee-blockchain.png>
-Package pdftex.def Info: ./ieee-blockchain.png used on input line 232.
+Package pdftex.def Info: ./ieee-blockchain.png used on input line 233.
 (pdftex.def)             Requested size: 94.84108pt x 56.9055pt.
  [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./ieee-
 blockchain.png>]
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 245.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 246.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 245
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 246
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 245
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 246
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 245.
+(Font)              <10> on input line 246.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 245.
+(Font)              <7> on input line 246.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 245.
-LaTeX Font Info:    Try loading font information for U+msa on input line 245.
+(Font)              <5> on input line 246.
+LaTeX Font Info:    Try loading font information for U+msa on input line 246.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 245.
+LaTeX Font Info:    Try loading font information for U+msb on input line 246.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 245.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 246.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 245.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 246.
 
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 245.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 246.
 
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 245.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 246.
 
  [2
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 256.
+(Font)              <10.95> on input line 257.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 256.
+(Font)              <8> on input line 257.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 256.
+(Font)              <6> on input line 257.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 256.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 257.
 
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 256.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 257.
 
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 256.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 257.
 
  [3
 
@@ -1456,7 +1488,7 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
 File: lamportts.png Graphic file (type png)
 
 <use lamportts.png>
-Package pdftex.def Info: lamportts.png used on input line 339.
+Package pdftex.def Info: lamportts.png used on input line 340.
 (pdftex.def)             Requested size: 166.87968pt x 145.87967pt.
  [9
 
@@ -1468,7 +1500,7 @@ Package pdftex.def Info: lamportts.png used on input line 339.
 <nodes.png, id=343, 171.64125pt x 216.81pt>
 File: nodes.png Graphic file (type png)
  <use nodes.png>
-Package pdftex.def Info: nodes.png used on input line 381.
+Package pdftex.def Info: nodes.png used on input line 382.
 (pdftex.def)             Requested size: 100.12883pt x 126.47769pt.
  [12
 
@@ -1476,6 +1508,15 @@ Package pdftex.def Info: nodes.png used on input line 381.
 [13
 
 ] [14
+
+]
+
+
+<QR code requested for "https://github.com/RyanKung/dneq4eos" in version 0-M.>
+
+<Copying the QR code for "https://github.com/RyanKung/dneq4eos" in version 3-M 
+as previously calculated.>
+[15
 
 ]
 \tf@nav=\write6
@@ -1487,19 +1528,22 @@ Package pdftex.def Info: nodes.png used on input line 381.
 \tf@snm=\write8
 \openout8 = `slide.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 412.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 412.
- (./slide.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 412.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 412.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 421.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 421.
+ (./slide.aux
+<Reading QR code for "https://github.com/RyanKung/dneq4eos" at level 3-M from a
+ux file.>
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 421.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 421.
 Package rerunfilecheck Info: File `slide.out' has not changed.
 (rerunfilecheck)             Checksum: 38129B4292B8A707CDAD78F79834582A;110.
  ) 
 Here is how much of TeX's memory you used:
- 33308 strings out of 492995
- 685216 string characters out of 6132705
- 879459 words of memory out of 5000000
- 36155 multiletter control sequences out of 15000+600000
+ 34751 strings out of 492995
+ 705140 string characters out of 6132705
+ 936505 words of memory out of 5000000
+ 37592 multiletter control sequences out of 15000+600000
  52560 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,15n,97p,10419b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1517,10 +1561,10 @@ dist/fonts/type1/public/lm/lmsso8.pfb></usr/local/texlive/2017/texmf-dist/fonts
 /type1/public/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
 lic/lm/lmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msbm10.pfb>
-Output written on slide.pdf (14 pages, 239756 bytes).
+Output written on slide.pdf (15 pages, 243140 bytes).
 PDF statistics:
- 477 PDF objects out of 1000 (max. 8388607)
- 430 compressed objects within 5 object streams
- 31 named destinations out of 1000 (max. 500000)
+ 505 PDF objects out of 1000 (max. 8388607)
+ 457 compressed objects within 5 object streams
+ 33 named destinations out of 1000 (max. 500000)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
