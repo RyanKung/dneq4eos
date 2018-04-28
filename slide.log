@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.2)  28 APR 2018 14:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.2)  28 APR 2018 14:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1528,14 +1528,14 @@ as previously calculated.>
 \tf@snm=\write8
 \openout8 = `slide.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 422.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 422.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 426.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 426.
  (./slide.aux
 <Reading QR code for "https://github.com/RyanKung/dneq4eos" at level 3-M from a
 ux file.>
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 422.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 422.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 426.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 426.
 Package rerunfilecheck Info: File `slide.out' has not changed.
 (rerunfilecheck)             Checksum: 38129B4292B8A707CDAD78F79834582A;110.
  ) 
@@ -1562,7 +1562,7 @@ type1/public/lm/lmsso8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
 ic/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy
 8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/m
 sbm10.pfb>
-Output written on slide.pdf (15 pages, 248080 bytes).
+Output written on slide.pdf (15 pages, 248525 bytes).
 PDF statistics:
  509 PDF objects out of 1000 (max. 8388607)
  460 compressed objects within 5 object streams
